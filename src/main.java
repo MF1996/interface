@@ -6,8 +6,8 @@ public class main {
         tableau[1] = new Cercle(5);
         tableau[2] = new Triangle(3.2, 4, 5);
         tableau[3] = new Carre(5);
-        for (int i = 0; i < 4; i++) {
-            System.out.println(tableau[i]);
-        }
-    }
+       for(Forme forme : tableau){
+       System.out.print(forme.toString());
+       }
+    
 }
